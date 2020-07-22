@@ -7,9 +7,17 @@ h1{
     text-align: center;
 }
 .apps{
+    margin-top: 25px;
     display: flex;
-    justify-content: space-around;
-   
+    object-fit: contain;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+
+.apps::-webkit-scrollbar{
+    display: none;
 }
 
 
